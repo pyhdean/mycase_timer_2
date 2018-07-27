@@ -1,0 +1,4 @@
+http://mycase-development-firm.mycase.test/court_cases/autocomplete.json?escape_autocomplete=false&scope=default&term=
+
+xmlHttp.open( "GET", "http://mycase-development-firm.mycase.test/court_cases/autocomplete.json?escape_autocomplete=false&scope=default&term=
+", false );

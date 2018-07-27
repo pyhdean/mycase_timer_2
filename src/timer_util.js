@@ -1,9 +1,9 @@
 export default function getCurrentTime(timer) {
   let totalSeconds = timer.totalSeconds;
 
-  // if (timer.start !== null) {
-  //   totalSeconds += (Date.now() - timer.start) / 1000;
-  // }
+  if (timer.start !== null) {
+    totalSeconds += (Date.now() - timer.start) / 1000;
+  }
 
   let hours = Math.floor(totalSeconds / 3600);
   totalSeconds %= 3600;
